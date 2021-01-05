@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Noto Sans JP', sans-serif;
+	line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: arial-black;
+}
+img
+{
+	max-width: 100%;
+}
+section{
+	padding-bottom:100px;
+}
+header{
+	background: linear-gradient(#0000008f,#0000008f),url(image/header-background-img.jpg);
+	height: 790px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.topBar {background: #A4C63B;}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bussinessContact {
+    width: 900px;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    color: #E0F8EC;
+}
+
+.bussinessTime {
+    width: 220px;
+    border-left: 1px solid #ffffff54;
+    border-right: 1px solid #ffffff54;
+}
+
+.bussinessTimeWrapper {
+    padding: 10px 0px;
+}
+
+span.timeClock {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+span.timeInfo {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bussinessCall {
+    width: 170px;
+    border-right: 1px solid #ffffff54;
+}
+
+.bussinessCallWrapper {
+    padding: 10px 0px;
+}
+
+span.phoneIcon {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+span.phoneNumber {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.bussinessSocial {
+    width: 200px;
+    float: right;
+    color: #E0F8EC;
+    display: flex;
+}
+
+.bussinessSocialWrapper {
+    border-left: 1px solid #ffffff54;
+}
+
+.bussinessSocialWrapper:last-child {
+    border-right: 1px solid #ffffff54;
+}
+
+.bussinessSocialWrapper i {
+    padding: 15px;
+}
+
+nav.menuBar {
+    margin-top: 40px;
+}
+
+.bussinessLogoWrapper {
+    width: 250px;
+    font-size: 25px;
+    color: #F8FFFB;
+    margin-left: 10px;
+    float: left;
+    font-weight: 900;
+}
+
+menu.menuItem {
+    width: 460px;
+    float: right;
+    font-weight: 100;
+}
+
+ul.primaryMenu {
+    overflow: hidden;
+}
+
+ul.primaryMenu li {list-style: none;float: left;margin-right: 40px;}
+
+ul.primaryMenu li:last-child {
+    margin-right: 0px;
+}
+
+ul.primaryMenu li a {
+    text-decoration: none;
+    color: #f8fff0;
+    font-size: 18px;
+}
+.subHeader {
+    margin-top: 100px;
+    position: relative;
+}
+
+.headerInner h3 {
+    color: #a3c539;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.headerInner {
+    margin-left: 80px;
+}
+
+.headerInner h1 {
+    color: #e0f8ec;
+    width: 450px;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    font-family: arial;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.headerInner p {
+    color: #e0f8ec;
+    width: 525px;
+    font-family: arial;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.subHeaderButton button {
+	background: #a4c63b;
+	border: none;
+	color: #e0f8ec;
+	padding: 10px 20px;
+	font-family: arial;
+	font-weight: 900;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-left: 10px;
+}
+.arrowWrapper1 {
+    color: #e0f8ec;
+    position: absolute;
+    font-size: 30px;
+    top: 55%;
+    left: 30px;
+}
+
+.arrowWrapper2 {
+    color: #f8fffb;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 55%;
+}
+.headerFoot {
+    background: #a4c63b;
+    margin-top: 150px;
+}
+
+.headerFootWrapper {
+    padding: 30px 0px;
+    position: relative;
+}
+
+.headerFootTitle {
+    color: #e0f8ec;
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 15px;
+}
+
+.headerFootInfo {
+    color: #e0f8ec;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.headerFootButton {
+    position: absolute;
+    right: 0px;
+    top: 34%;
+}
+
+.headerFootButton button {
+    border: 2px solid #e0f8ec;
+    background: #a4c63b;
+    padding: 10px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #e0f8ec;
+    font-weight: 900;
+}
+section.serviceSection {
+    margin-top: 150px;
+}
+.sectionTitle {
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sectionTitle span {
+    color: #a4c63b;
+}
+
+.sectionInfo {
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-bottom: 70px;
+}
+
+.serviceInfo {
+    overflow: hidden;
+}
+
+.serviceBox {
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+}
+
+.serviceInfoWrapper {
+    background: #F7F7F7;
+    margin-top: -8px;
+    padding: 30px;
+}
+.serviceInfoWrapper h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-weight: 900;
+    color: #585555;
+}
+
+.serviceInfoWrapper p {
+    font-size: 14px;
+    color: grey;
+    font-family: arial;
+    margin-bottom: 15px;
+}
+
+.serviceBoxButton button {
+    background: #a4c63b;
+    border: none;
+    padding: 10px 20px;
+    color: #f8fffb;
+    font-weight: 900;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.serviceBox:last-child {
+    margin-right: 0;
+}
+
+.serviceImg img {
+    height: 210px;
+}
+.bussinessGrowth{
+	background: linear-gradient(45deg, #000000ad, #000000ad),url(image/business-growth-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.bussinessGrowthInfo {
+    margin-top: 150px;
+    width: 600px;
+    float: left;
+}
+
+.bussinessGrowthInfo h3 {
+    color: #e2e2e2;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+.bussinessGrowthInfo h1 {
+    font-size: 40px;
+    width: 450px;
+    line-height: 45px;
+    font-family: arial;
+    color: #e0f8ec;
+}
+
+.bussinessGrowthInfo span {
+    color: #a4c63b;
+}
+
+.bussinessGrowthInfo p {
+    width: 550px;
+    margin-top: 50px;
+    color: #e2e2e2;
+}
+
+.businessGrowthButton button {
+    border: none;
+    color: #e0f8ec;
+    background: #a4c63b;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-weight: 900;
+}
+.businessGrowthDetails {
+    width: 500px;
+    float: right;
+    margin-top: 200px;
+    color: white;
+    overflow: hidden;
+}
+
+.businessGrowthBox {
+    background: #333333c7;
+    width: 230px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.businessGrowthBox h1 {
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: arial;
+    color: #a4c63b;
+    padding-bottom: 20px;
+}
+
+.businessGrowthBox h3 {font-size: 22px;font-family: arial;color: #e0f8ec;padding-bottom: 40px;}
+.businessGrowthBox:nth-child(2) {
+    margin-right: 0;
+}
+
+.businessGrowthBox:last-child {
+    margin-right: 0;
+}
+.aboutSectionLeft {
+    width: 512px;
+    margin-top: 150px;
+    float: left;
+}
+
+.aboutSectionRight {
+    width: 658px;
+    float: right;
+    margin-top: 150px;
+    background: #f7f7f7;
+}
+
+.aboutSectionRight h3 {
+    font-size: 16px;
+    color: grey;
+    font-family: arial;
+    padding-left: 55px;
+    margin-top: 45px;
+}
+
+.aboutSectionRight h1 {
+    font-size: 40px;
+    padding-left: 55px;
+    width: 435px;
+    font-family: arial;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.aboutSectionRight p {
+    padding-left: 55px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: grey;
+    font-family: arial;
+}
+
+.aboutSectionButton button {
+    border: none;
+    color: #e0f8ec;
+    background: #a4c63b;
+    padding: 10px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.aboutSectionButton {
+    padding-left: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutSectionLeft img {height: 455px;}
+.aboutSectionRight span {
+    color: #a4c63b;
+}
+section.testmonialSection {
+    background: #f7f7f7;
+}
+
+.testmonialSectionWrapper {
+    padding-top: 100px;
+}
+
+.testmonialSectionInfo {
+    overflow: hidden;
+    column-count: 2;
+}
+
+.testmonialBox {
+    background: white;
+    width: 580px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.testmonialBox h2 {font-family: arial;font-weight: 900;color: #333;padding-top: 30px;font-size: 20px;}
+
+.testmonialBox span {
+    color: #a4c63b;
+    font-family: arial;
+    font-weight: 900;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.testmonialBox p {
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-family: arial;
+}
+
+.testmonialCircle {
+    background: #c5c5c5;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.testmonialCircle span {
+    position: absolute;
+    font-size: 7px;
+    left: 21px;
+    top: 18px;
+    color: grey;
+}
+.contactSectionWrapper {
+    padding-top: 100px;
+}
+
+.contactSectionInfo {
+    background: #a4c63b;
+}
+
+.nameArea input {width: 289px;margin: auto;margin-right: 35px;padding: 9px;border-radius: 50px;border: none;font-size: 14px;}
+
+.nameArea {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.nameArea input:last-child {
+    margin-right: 0;
+}
+
+.commentArea input {width: 1000px;height: 110px;border-radius: 20px;border: none;font-size: 14px;}
+
+.commentArea {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contactSectionButton button {
+    background: #a4c63b;
+    color: #e0f8ec;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.contactSectionButton {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+section.graphicsSection {
+    background: #f7f7f7;
+    padding-bottom: 70px;
+}
+
+.graphicsBox {
+    width: 300px;
+    overflow: hidden;
+    padding-top: 70px;
+    margin-left: 45px;
+    float: left;
+    margin-right: 45px;
+}
+
+.iconArea {
+    width: 70px;
+    float: left;
+}
+
+.iconArea i {
+    font-size: 50px;
+    color: grey;
+}
+
+.graphicsBoxInfo {
+    width: 230px;
+    float: right;
+}
+
+.graphicsBoxInfo h1 {
+    color: grey;
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: -5px;
+}
+
+.graphicsBoxInfo span {
+    font-size: 10px;
+    color: grey;
+    letter-spacing: 2.5px;
+}
+footer.bussinessFoot {
+    background: #232323;
+}
+
+.bussinessFootWrappper {
+    padding-top: 80px;
+}
+
+.footerBox {
+    width: 285px;
+    overflow: hidden;
+    float: left;
+}
+
+.footerBox h2 {
+    color: #e0f8ec;
+    font-family: arial;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.footerBox p {
+    font-size: 14px;
+    color: #e0f8ec;
+    line-height: 30px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+
+.footerLink {
+    display: flex;
+}
+
+.footerSocialLink {
+    background: #e0f8ec;
+    margin-right: 15px;
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+}
+
+.footerSocialLink i {
+    margin-left: 11px;
+    margin-top: 9px;
+    color: #333;
+    text-decoration: none;
+}
+
+.footerUsefulLink a {
+    display: block;
+    color: #d2d8d5;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 33px;
+    font-family: arial;
+}
+
+.firstName input {background: #343434;border: none;width: 220px;padding: 10px;border-radius: 50px;margin-bottom: 10px;}
+
+.footerEmail input {
+    width: 220px;
+    background: #343434;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.footertext input {
+    width: 170px;
+    background: #343434;
+    border: none;
+    padding: 35px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.footerButton button {
+    background: #a4c63b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #e0f8ec;
+    font-family: arial;
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.footerTime {
+    background: #343434;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 70px;
+}
+
+.footerTime p {
+    color: #c7c7c7;
+    font-family: arial;
+    font-size: 14px;
+}
